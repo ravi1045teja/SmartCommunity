@@ -1,4 +1,3 @@
-
 # Backend API (Team SmartCommunity)
 
 * API end points are developed to post problem, bus survey,  Covi19 survey and endpoints to get problem by type, location and bussurvey and Covid19 survey.
@@ -9,10 +8,7 @@
 ## Authors
 
 * [Raviteja Kase](B00823644) 
-* [Mayank Bagla](B00848908)
-* [Sumita Parte](B00834807)
-* [Vidip Malhotra](B00838025)
-* [Zeel Shah](B00829477)
+
 
 ## Database used
 * Database is hosted in MongoDB atlas
