@@ -9,10 +9,7 @@
 ## Authors
 
 * [Raviteja Kase](B00823644) 
-* [Mayank Bagla](B00848908)
-* [Sumita Parte](B00834807)
-* [Vidip Malhotra](B00838025)
-* [Zeel Shah](B00829477)
+
 
 ## Features Developed
 * Signup screen using Google
