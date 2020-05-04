@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">SmartCommunity</string>
+    <string name="default_web_client">217250015096-fd8fuj2n5bm5tu4vvm822rrs50b7qjs0.apps.googleusercontent.com</string>
+    <string name="title_activity_home">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="location_prompt">Select your location</string>
+
+    <string-array name="location_arrays">
+        <item>Downtown Halifax</item>
+        <item>The Hydrostone</item>
+        <item>North End Halifax</item>
+        <item>West End, Halifax</item>
+        <item>Quinpool district</item>
+        <item>Richmond</item>
+        <item>South End Halifax</item>
+        <item>Spring Garden</item>
+    </string-array>
+    <string name="service_prompt">Select your service</string>
+    <string-array name="service_arrays">
+        <item>Water issues</item>
+        <item>Recycling issues</item>
+        <item>Parking issues</item>
+        <item>Infratructure Quality issues</item>
+        <item>Traffic and Transportation issues</item>
+        <item>Housing issues</item>
+        <item>Public Education</item>
+        <item>Food Quality issues</item>
+    </string-array>
+    <string name="age_prompt">Select your Age Group</string>
+    <string-array name="age_arrays">
+        <item>Less than 20</item>
+        <item>20-30</item>
+        <item>30-50</item>
+        <item>Above 50</item>
+
+
+    </string-array>
+</resources>

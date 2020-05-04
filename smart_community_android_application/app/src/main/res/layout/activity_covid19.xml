@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Covid19Activity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="COVID19 Survey"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FF5722"
+        app:layout_constraintBottom_toTopOf="@+id/ll3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_width="411dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="569dp"
+        android:orientation="vertical"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading">
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_weight="1"
+            android:text="Do you know someone affected in your area with corona? "
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:id="@+id/first1"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/rb"
+                android:layout_width="81dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Yes"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <RadioButton
+                android:id="@+id/rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="No"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll4"
+        android:layout_width="413dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll3">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_weight="1"
+            android:text="Are you facing any shortages of groceries items? "
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:id="@+id/second1"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/rb3"
+                android:layout_width="81dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Yes"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <RadioButton
+                android:id="@+id/rb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="No"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll5"
+        android:layout_width="412dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll4">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_weight="1"
+            android:text="Do you think enough number of test are conducted?"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:id="@+id/third1"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/rb5"
+                android:layout_width="81dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Yes"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <RadioButton
+                android:id="@+id/rb6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="No"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll6"
+        android:layout_width="412dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll5">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_weight="1"
+            android:text="what item you wanted to buy but couldn’t find?"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Item" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll7"
+        android:layout_width="408dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll6">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_weight="1"
+            android:text="Severity level on scale of 1 to 10"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+
+        android:background="#FF5722"
+        android:text="SUBMIT"
+        android:textColor="@color/cardview_light_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll8"
+        tools:ignore="PrivateResource" />
+
+    <LinearLayout
+        android:id="@+id/ll8"
+
+        android:layout_width="408dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll7"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="549dp">
+        <TextView
+            android:id="@+id/age1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="44dp"
+            android:layout_weight="1"
+            android:text="Age Group:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <Spinner
+            android:id="@+id/spinnerC"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:entries="@array/age_arrays"
+            android:prompt="@string/age_prompt">
+
+        </Spinner>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
